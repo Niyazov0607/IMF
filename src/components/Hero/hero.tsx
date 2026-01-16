@@ -68,7 +68,7 @@ const Hero = () => {
                         </h3>
 
                         <div className="overflow-x-auto w-full md:w-auto">
-                            <div className="flex items-center gap-[30px] md:gap-[50px] opacity-95">
+                            <div className="grid grid-cols-2 md:flex items-center gap-[30px] md:gap-[50px] opacity-95">
                                 <img
                                     src={Impus}
                                     alt="impus"
