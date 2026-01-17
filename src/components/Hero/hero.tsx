@@ -62,13 +62,13 @@ const Hero = () => {
                         }}
                     />
 
-                    <div className="flex flex-col md:flex-row items-start md:items-center gap-[16px] md:gap-[24px] mt-[20px] pl-0 md:pl-5">
+                    <div className="md:flex flex-col md:flex-row items-start md:items-center gap-[16px] md:gap-[24px] mt-[20px] pl-0 md:pl-5 hidden ">
                         <h3 className="uppercase text-xs md:text-sm font-medium whitespace-nowrap">
                             trusted by:
                         </h3>
 
-                        <div className="overflow-x-auto w-full md:w-auto">
-                            <div className="grid grid-cols-2 md:flex items-center gap-[30px] md:gap-[50px] opacity-95">
+                        <div className=" w-full">
+                            <div className="grid grid-cols-3 md:flex items-center gap-[30px] md:gap-[50px] opacity-95">
                                 <img
                                     src={Impus}
                                     alt="impus"
