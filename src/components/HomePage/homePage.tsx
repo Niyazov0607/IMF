@@ -1,4 +1,5 @@
 import Clarity from "../Clarity/clarity";
+import Client from "../Clients/client";
 import Finance from "../Finance/finance";
 import Plan from "../Plan/plan";
 
@@ -8,6 +9,7 @@ const HomePage = () => {
             <Finance />
             <Clarity />
             <Plan />
+            <Client />
         </div>
     );
 };

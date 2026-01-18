@@ -38,7 +38,7 @@ const Navbar = () => {
                 className="relative z-20 w-360 max-w-full m-auto p-5"
                 style={{ fontFamily: "'Libre Baskerville', serif" }}
             >
-                <div className="flex items-center justify-between">
+                <div className="flex items-center justify-between ">
                     <NavLink to="/">
                         <img src={LogoImg} alt="logo" />
                     </NavLink>
